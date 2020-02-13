@@ -1,0 +1,13 @@
+<h1> WORD COUNT </h1>
+<!-- {{Name}} -->
+<!-- name column in url section =count  -->
+<a href="{% url 'about' %}"> AboutPage </a>
+<br />
+<form action="{% url 'count' %}">
+
+<textarea cols="60" rows="20" name="fulltext"></textarea>
+<br />
+<br />
+<input type="SUBMIT" value="Count!" />
+<br />
+</form>
